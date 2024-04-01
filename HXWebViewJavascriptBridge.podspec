@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HXWebViewJavascriptBridge'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HXWebViewJavascriptBridge.'
+  s.summary          = 'An iOS bridge for sending messages between Obj-C/Swift and JavaScript in WKWebViews.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,12 +31,17 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'HXWebViewJavascriptBridge/Classes/**/*'
+  s.private_header_files = 'WebViewJavascriptBridge/Classes/WebViewJavascriptBridge_JS.h'
+  
+  s.resource_bundles = {
+      'HXWebViewJavascriptBridge' => ['privacy/PrivacyInfo.xcprivacy'],
+  }
   
   # s.resource_bundles = {
   #   'HXWebViewJavascriptBridge' => ['HXWebViewJavascriptBridge/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'WebKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

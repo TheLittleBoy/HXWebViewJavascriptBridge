@@ -1,0 +1,16 @@
+PODS:
+  - HXWebViewJavascriptBridge (0.1.0)
+
+DEPENDENCIES:
+  - HXWebViewJavascriptBridge (from `../`)
+
+EXTERNAL SOURCES:
+  HXWebViewJavascriptBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HXWebViewJavascriptBridge: ab387cc50350371725ecf978b178530eaac92c63
+
+PODFILE CHECKSUM: 2477f53f130b8a1b9d1228db87277f72f84171f8
+
+COCOAPODS: 1.15.2

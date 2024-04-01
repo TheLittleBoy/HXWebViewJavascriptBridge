@@ -22,7 +22,7 @@ pod 'HXWebViewJavascriptBridge'
 
 ## Author
 
-TheLittleBoy, wangxa@edu-edu.com.cn
+TheLittleBoy
 
 ## License
 
