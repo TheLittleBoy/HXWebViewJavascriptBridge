@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'HXWebViewJavascriptBridge/Classes/**/*'
-  s.private_header_files = 'WebViewJavascriptBridge/Classes/WebViewJavascriptBridge_JS.h'
+  s.private_header_files = 'HXWebViewJavascriptBridge/Classes/WebViewJavascriptBridge_JS.h'
   
   s.resource_bundles = {
       'HXWebViewJavascriptBridge' => ['privacy/PrivacyInfo.xcprivacy'],
