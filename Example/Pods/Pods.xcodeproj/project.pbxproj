@@ -20,8 +20,8 @@
 		A55163C6D384A68BBD75875803BB0611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6406D347F5B7E18CF968F77629C4F06E /* Foundation.framework */; };
 		ACE55789A6F00A8CB11F49234326061B /* HXWebViewJavascriptBridge-HXWebViewJavascriptBridge in Resources */ = {isa = PBXBuildFile; fileRef = 8438D52831144375508190C88B5CC89E /* HXWebViewJavascriptBridge-HXWebViewJavascriptBridge */; };
 		B1484CF9B7262F8972429407A703CBF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6406D347F5B7E18CF968F77629C4F06E /* Foundation.framework */; };
+		C963BA5A43A27450F025C1F4BF128821 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA2E5C1F9ACDAE88AD24BDD627CB4E0 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CAFCE684351F5D4BEA4490C1EAF40CBD /* Pods-HXWebViewJavascriptBridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4904555A0AE58222AFF747F594CBD5AE /* Pods-HXWebViewJavascriptBridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5FB0333C8DE891725291FE9AF229B9D /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA2E5C1F9ACDAE88AD24BDD627CB4E0 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D62B4C1BD9A707F98656E472EEF6252E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C27F7E6D7B02625DF3B111E5192591 /* UIKit.framework */; };
 		E94354C3E7C14D0FAA75078F34201D96 /* Pods-HXWebViewJavascriptBridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 994496E4DF4CF1D76DBBEF0C2633BA63 /* Pods-HXWebViewJavascriptBridge_Example-dummy.m */; };
 		FED5C9C424B860BF1871FC6789F55F75 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F71395F6780CF1601580AC031EA421 /* WKWebViewJavascriptBridge.m */; };
@@ -284,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2810DDCE7005183F96F297E850DB4480 /* HXWebViewJavascriptBridge-umbrella.h in Headers */,
-				D5FB0333C8DE891725291FE9AF229B9D /* WebViewJavascriptBridge_JS.h in Headers */,
+				C963BA5A43A27450F025C1F4BF128821 /* WebViewJavascriptBridge_JS.h in Headers */,
 				A279E3F3E8E599B46E532E9C8D499161 /* WebViewJavascriptBridgeBase.h in Headers */,
 				FF352CA1E57F3DE352B78F38848D2E56 /* WKWebViewJavascriptBridge.h in Headers */,
 			);

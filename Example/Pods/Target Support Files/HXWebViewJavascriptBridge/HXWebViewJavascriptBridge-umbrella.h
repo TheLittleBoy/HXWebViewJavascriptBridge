@@ -11,7 +11,6 @@
 #endif
 
 #import "WebViewJavascriptBridgeBase.h"
-#import "WebViewJavascriptBridge_JS.h"
 #import "WKWebViewJavascriptBridge.h"
 
 FOUNDATION_EXPORT double HXWebViewJavascriptBridgeVersionNumber;
